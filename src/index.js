@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Guess from './components/guess';
+import Master from './components/master';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Guess />, document.getElementById('root'));
+ReactDOM.render(<Master />, document.getElementById('root'));
 registerServiceWorker();
+ 
