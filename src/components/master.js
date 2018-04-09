@@ -17,8 +17,8 @@ export default function Master (){
 
                 <Feedback />
                 <Form />            
-                <Count />
-                <Guesses />
+                <Count number={10}/>
+                <Guesses guesses={[1, 2, 3, 4]}/>
 
             </section>
 
